@@ -1,0 +1,32 @@
+{
+  "members" : [
+    {
+       "firstName": "Haidar",
+       "lastName": "Halim",
+       "gender": "male",
+       "age": 20,
+       "nim": "1302220152"
+    },
+    {
+       "firstName": "Yoga",
+       "lastName": "Fikri",
+       "gender": "male",
+       "age": 20,
+       "nim": "130222----"
+    },
+    {
+      "firstName": "Kyntar",
+      "lastName": "Barra",
+      "gender": "male",
+      "age": 20,
+      "nim": "130222----"
+    },
+    {
+      "firstName": "Muhammad",
+      "lastName": "Faisal",
+      "gender": "male",
+      "age": 20,
+      "nim": "130222----"
+    }
+  ]
+}

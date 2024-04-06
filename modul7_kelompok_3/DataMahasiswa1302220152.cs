@@ -15,7 +15,7 @@ namespace modul7_kelompok_3
             string jstxt = File.ReadAllText("../../../../jurnal7_1_1302220152.json"); // buka file
 
             var options = new JsonSerializerOptions{ IncludeFields =  true };
-            Data js = JsonSerializer.Deserialize<Data>(jstxt, options); // parse json
+            Data2 js = JsonSerializer.Deserialize<Data2>(jstxt, options); // parse json
 
             Console.WriteLine($"{js.firstName} {js.lastName} {js.gender} {js.address["streetAddress"]} {js.address["city"]} {js.address["state"]}");
             foreach (Dictionary<string, string> dct in js.courses)
@@ -25,7 +25,7 @@ namespace modul7_kelompok_3
         }
     }
 
-    class Data
+    class Data2
     {
         public string firstName;
         public string lastName;
