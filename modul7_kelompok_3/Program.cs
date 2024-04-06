@@ -11,3 +11,9 @@ Console.WriteLine("member tim");
 
 TeamMembers1302220152 tm = new TeamMembers1302220152();
 tm.ReadJson();
+
+Console.WriteLine();
+Console.WriteLine("glossary item");
+
+GlossaryItem1302220152 gi = new GlossaryItem1302220152();
+gi.ReadJson();
