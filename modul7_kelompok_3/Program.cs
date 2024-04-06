@@ -1,2 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using modul7_kelompok_3;
+
+Console.WriteLine("data mahasiswa");
+
+DataMahasiswa1302220152 dthaidar = new DataMahasiswa1302220152();
+dthaidar.ReadJson();
+
+Console.WriteLine();
+Console.WriteLine("member tim");
+
+TeamMembers1302220152 tm = new TeamMembers1302220152();
+tm.ReadJson();
+
+Console.WriteLine();
+Console.WriteLine("glossary item");
+
+GlossaryItem1302220152 gi = new GlossaryItem1302220152();
+gi.ReadJson();
